@@ -1,0 +1,13 @@
+---
+title: "Class"
+author: "Jessica Edwards"
+date: "2/11/2020"
+output: html_document
+---
+
+```{r}
+library(readxl)
+class_enrollment <- read_excel("class_enrollment_summary_by_term_2.11.20.xlsx")
+view(class_enrollment)
+```
+
